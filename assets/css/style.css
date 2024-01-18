@@ -6567,6 +6567,18 @@ Go To Top Style
   margin-bottom: 13px;
 }
 
+.single-services-card {
+  background-color: #ffffff;
+  padding: 30px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 10px 30px 5px rgba(44, 44, 44, 0.05);
+  box-shadow: 0px 10px 30px 5px rgba(44, 44, 44, 0.05);
+  height: 423px;
+}
 @media screen and (max-width: 768px) {
   .info_box {
     background-color: #0a5896;
@@ -6574,5 +6586,8 @@ Go To Top Style
     border-radius: 8px;
     position: relative;
     margin: 50px auto;
+  }
+  .single-services-card {
+    height: 428px;
   }
 }
